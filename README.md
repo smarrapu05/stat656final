@@ -10,19 +10,19 @@ Graph based protein analysis is a vital area of bioinformatics because even incr
 
 
 
-\*\*eda.R\*\* - This file contains the code for the exploratory data analysis of the graph properties based on EC class
+**eda.R** - This file contains the code for the exploratory data analysis of the graph properties based on EC class
 
-\*\*randomForest.py\*\* - This file contains the code for the random forest model
+**randomForest.py** - This file contains the code for the random forest model
 
-\*\*gcn\_enzymes.py\*\* - This file contains a custom GCN implementation in pytorch. It includes 6-fold cross validation for this model as well as some diagnostics (confusion matrix, loss curve, and accuracy curve).
+**gcn\_enzymes.py** - This file contains a custom GCN implementation in pytorch. It includes 6-fold cross validation for this model as well as some diagnostics (confusion matrix, loss curve, and accuracy curve).
 
-\*\*gat\_enzymes.py\*\* - This file contains a similar custom GAT implementation. The data parsing and formatting is shared from gcn\_enzymes so it imports the functions. It also has the same diagnostic plots
+**gat\_enzymes.py** - This file contains a similar custom GAT implementation. The data parsing and formatting is shared from gcn\_enzymes so it imports the functions. It also has the same diagnostic plots
 
 
 
-\*/ENZYMES\* - This is the ENZYMES dataset from TUDataset \[https://chrsmrrs.github.io/datasets/docs/datasets/]. It is here because the gat and gcn require it to function
+*/ENZYMES* - This is the ENZYMES dataset from TUDataset \[https://chrsmrrs.github.io/datasets/docs/datasets/]. It is here because the gat and gcn require it to function
 
-\*/outputs\*  - This folder contains the outputs from the eda and model files.
+*/outputs*  - This folder contains the outputs from the eda and model files.
 
 
 
